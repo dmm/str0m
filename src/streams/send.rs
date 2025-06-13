@@ -362,7 +362,7 @@ impl StreamTx {
         // This is true also for RTX.
         if !remote_acked_ssrc {
             header_ref.ext_vals.mid = Some(mid);
-            header_ref.ext_vals.rid = rid;
+            //header_ref.ext_vals.rid = rid;
         }
 
         let pt_main = header_ref.payload_type;
